@@ -1,8 +1,10 @@
 {
-  "name": "lint-cli",
+  "name": "lint-cli-ai",
   "version": "1.0.0",
   "description": "cli",
   "keywords": [
+    "ai",
+    "lint",
     "cli"
   ],
   "homepage": "https://github.com/atrox39/lint-cli#readme",
