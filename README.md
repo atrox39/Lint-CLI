@@ -1,7 +1,7 @@
 # lint-cli
 
-AI-powered command-line assistant for local development.
-It connects to a local OpenWebUI / Ollama-compatible API and can read, write, and list files in your current project, acting like a coding partner that lives inside your terminal.
+ AI-powered command-line assistant for local development (published on npm as `lint-cli-ai`).
+ It connects to a local OpenWebUI / Ollama-compatible API and can read, write, and list files in your current project, acting like a coding partner that lives inside your terminal.
 
 ## Features
 
@@ -41,10 +41,16 @@ npm start
 node bin/lint-cli.js
 ```
 
-If you want to install it globally (so you can run `lint-cli` from anywhere), from the project root:
+ If you want to install it globally from this repository (so you can run `lint-cli` from anywhere), from the project root:
 
 ```bash
 npm install -g .
+```
+
+Or install it globally from npm (package name `lint-cli-ai`):
+
+```bash
+npm install -g lint-cli-ai
 ```
 
 This exposes two commands:

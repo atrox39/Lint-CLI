@@ -39,7 +39,8 @@
               Ship code with an AI that lives in your terminal
             </h2>
             <p class="text-sm leading-relaxed text-slate-300">
-              lint-cli is a Node.js command-line tool that connects to a local OpenWebUI or Ollama-compatible API.
+              lint-cli is a Node.js command-line tool that connects to a local OpenWebUI or Ollama-compatible API
+              (published on npm as <span class="font-mono text-emerald-300">lint-cli-ai</span>).
               It can read, write and list files in your current project, acting like a focused coding partner inside your terminal.
             </p>
             <div class="grid gap-4 text-sm text-slate-200 md:grid-cols-2">
@@ -81,7 +82,7 @@
               </div>
               <pre class="overflow-x-auto rounded-lg bg-slate-950/90 p-3 leading-relaxed">
 <code class="text-[0.7rem] text-slate-200">
-$ npm install -g lint-cli
+$ npm install -g lint-cli-ai
 
 $ cd your-project
 $ lint-cli
@@ -116,8 +117,12 @@ $ lint-cli
 npm install
 npm start
 
-# or globally
+# or globally from source
 npm install -g .
+lint-cli
+
+# or from npm registry
+npm install -g lint-cli-ai
 lint-cli
             </pre>
           </div>
@@ -149,4 +154,3 @@ OLLAMA_API_KEY=your-api-key
     </main>
   </body>
 </html>
-
